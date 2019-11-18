@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo&display=swap');
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-scale {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+  max-width: none;
+
+}
+.carousel-inner > .item {
+   height: 65vh;
+   vertical-align: bottom
+}
+
+.transparent{
+  background:rgba(0,0,0,0.5);
+}
+
+
+.bottom-arrow {
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  border: 0.5em solid #333;
+  border-radius: 50%;
+  margin-left: 0.75em;
+}
+.bottom-arrow:after {
+  content: '';
+	display: inline-block;
+  margin-top: 0.6em;
+  width: 1.4em;
+  height: 1.4em;
+  border-top: 0.5em solid #333;
+  border-right: 0.5em solid #333;
+  -moz-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+body {
+  font-family: 'Heebo', sans-serif; !important;
+}
+
+p {
+	font-size: large;
+}
