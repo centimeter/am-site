@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="utf-8">
-	<title>NEET AM</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="main.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-	<title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>NEET AM</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
 </head>
 <body>
+	<div class="container">
 	<img src="imgs/banner.png" alt="NEET Autonomous Machines">
-	<ul class="nav nav-tabs">
+	<ul class="nav nav-tabs"> 
 		<li><a href="index.html">Home</a></li>
 		<li class="active"><a href="projects.html">Projects</a></li>
 		<li><a href="announcements.html">Announcements</a></li>
@@ -22,6 +22,55 @@
 		<li><a href="contacts.html">Contact</a></li>
 	</ul>
 	<br>
+
+	<div class="accordion" id="accordionExample">
+	  <div class="card">
+	  	<div class = "card-img-caption">
+	  		<div class = "transparent card-text">
+	  			<h2 style = "color: white;"> Senior Capstone Project</h2>
+	  			<p style = "color: white;"> Senior Spring </p>
+	  		</div>
+	  		<img src = "imgs/seniors/senior_discussion_2019.jpg" class = "card-img-top" alt="6.141" style="width: 100%;" id="headingOne"  data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+	     </div>
+
+	    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+	      <div class="card-body">
+	       	16.84 Advanced Autonomous Robotic Systems: The thread's capstone class, where seniors design and build their own autonomous project. The class is very open ended, and students choose a different project each year, be it delivery systems, guides, or something new.
+
+	       	This year, students are focusing on drone-related challenges, and are designing a system that automatically inspects infrastructure.
+	      </div>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <div class="card-header" id="headingTwo">
+	      <h2 class="mb-0">
+	        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+	          Collapsible Group Item #2
+	        </button>
+	      </h2>
+	    </div>
+	    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+	      <div class="card-body">
+	        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+	      </div>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <div class="card-header" id="headingThree">
+	      <h2 class="mb-0">
+	        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+	          Collapsible Group Item #3
+	        </button>
+	      </h2>
+	    </div>
+	    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+	      <div class="card-body">
+	        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
 	<div>
 		<div class="row no-gutters">
 		  <div class="col-sm-6 center bg-primary"> 
@@ -40,5 +89,6 @@
 		  </div>
 		</div>
 	</div>
+</div>
 </body>
 </html>

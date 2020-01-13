@@ -3,6 +3,15 @@
   background-color: #f6f6f6;
 }
 
+.shortcard {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px;
+}
+
+
 .center{
   display: block;
   margin-left: auto;
@@ -36,6 +45,22 @@
   background:rgba(0,0,0,0.5);
 }
 
+.card-img-caption {
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);
+}
+  
+.card-img-caption .card-img-top {
+  z-index: 0;
+}
+    
+.card-img-caption .card-text {
+  text-align: center;
+  width: 100%;
+  margin: 33% 0;
+  position: absolute;
+  z-index: 1;
+}
 
 .bottom-arrow {
   display: inline-block;
@@ -58,6 +83,30 @@
   -webkit-transform: rotate(135deg);
   transform: rotate(135deg);
 }
+
+.bottom-arrow-white {
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  border: 0.5em solid #FFF;
+  border-radius: 50%;
+  margin-left: 0.75em;
+}
+
+.bottom-arrow-white:after {
+  content: '';
+  display: inline-block;
+  margin-top: 0.6em;
+  width: 1.4em;
+  height: 1.4em;
+  border-top: 0.5em solid #FFF;
+  border-right: 0.5em solid #FFF;
+  -moz-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+
 
 body {
   font-family: 'Heebo', sans-serif; !important;
